@@ -49,13 +49,12 @@ The background transparent property with fallback for IE
  :root .backgroundtransparent {
    filter: none;
  }
- ===================================================================
 
  ```
 
- ## Border radius
+## Border radius
 
- ### Usage
+### Usage
 
  ```scss
 	.bordered_div{
