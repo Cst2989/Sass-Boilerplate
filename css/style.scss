@@ -1,0 +1,8 @@
+@import 'respond-to-mixin/respond-to';
+
+h1{
+	font-size: 80px;
+	@include respond-to( $to: '720px') {
+       font-size: 20px;
+      }
+}

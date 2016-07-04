@@ -1,0 +1,6 @@
+h1 {
+  font-size: 80px;
+  @error 'Provided string that doesn`t exist in breakpoint map.'; }
+  @media screen and (min-width: 0px) and (max-width: 720px) {
+    h1 {
+      font-size: 20px; } }

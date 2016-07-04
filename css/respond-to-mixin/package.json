@@ -1,0 +1,52 @@
+{
+  "name": "respond-to-mixin",
+  "version": "1.0.2",
+  "description": "Easy to use SASSlang responsive manager",
+  "main": "respond-to.scss",
+  "style": "respond-to.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t0rrro/respond-to.git"
+  },
+  "keywords": [
+    "responsive",
+    "mixin",
+    "sass"
+  ],
+  "author": {
+    "name": "Mikel Santos",
+    "email": "msantos@wolfram.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t0rrro/respond-to/issues"
+  },
+  "homepage": "https://github.com/t0rrro/respond-to#readme",
+  "gitHead": "4dab9cbf07cfb25c570ce8259cecb46258973cb9",
+  "_id": "respond-to-mixin@1.0.2",
+  "scripts": {},
+  "_shasum": "13ecea17955f634291d2163357c9f82eff2ce49b",
+  "_from": "respond-to-mixin@*",
+  "_npmVersion": "3.8.3",
+  "_nodeVersion": "5.10.1",
+  "_npmUser": {
+    "name": "toro",
+    "email": "mikel.canovas@gmail.com"
+  },
+  "dist": {
+    "shasum": "13ecea17955f634291d2163357c9f82eff2ce49b",
+    "tarball": "https://registry.npmjs.org/respond-to-mixin/-/respond-to-mixin-1.0.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "toro",
+      "email": "mikel.canovas@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/respond-to-mixin-1.0.2.tgz_1461337378901_0.26281946734525263"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/respond-to-mixin/-/respond-to-mixin-1.0.2.tgz"
+}
