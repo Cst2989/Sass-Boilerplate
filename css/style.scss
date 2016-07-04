@@ -1,9 +1,11 @@
 @import 'respond-to-mixin/respond-to';
 @import 'mixins/_alerts.scss';
+@import 'mixins/_animate.scss';
 @import 'mixins/_background-transparent.scss';
 @import 'mixins/_calc.scss';
 @import 'mixins/_opacity.scss';
 @import 'mixins/_sticky-footer.scss';
+
 
 
 h1{
@@ -12,3 +14,11 @@ h1{
        font-size: 20px;
       }
 }
+
+
+
+
+
+.backgroundtransparent{
+//   @include backgroundTransparent(#f36,.5);
+// }
