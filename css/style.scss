@@ -1,4 +1,10 @@
 @import 'respond-to-mixin/respond-to';
+@import 'mixins/_alerts.scss';
+@import 'mixins/_background-transparent.scss';
+@import 'mixins/_calc.scss';
+@import 'mixins/_opacity.scss';
+@import 'mixins/_sticky-footer.scss';
+
 
 h1{
 	font-size: 80px;
