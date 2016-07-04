@@ -1,0 +1,22 @@
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+/* 
+USAGE:
+
+p {
+  @include font-size(14px)
+}
+OUTPUT:
+
+p {
+  font-size: 14px; //Will be overridden if browser supports rem
+  font-size: 0.8rem;
+} */

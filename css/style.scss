@@ -2,23 +2,23 @@
 @import 'mixins/_alerts.scss';
 @import 'mixins/_animate.scss';
 @import 'mixins/_background-transparent.scss';
+@import 'mixins/_border-radius.scss';
 @import 'mixins/_calc.scss';
+@import 'mixins/_clearfix.scss';
 @import 'mixins/_opacity.scss';
+@import 'mixins/_placeholder.scss';
+@import 'mixins/_pseudo.scss';
+@import 'mixins/_rem.scss';
 @import 'mixins/_sticky-footer.scss';
-
+@import 'mixins/_svg-background.scss';
+@import 'mixins/_transitions.scss';
 
 
 h1{
 	font-size: 80px;
 	@include respond-to( $to: '720px') {
        font-size: 20px;
-      }
+    }
 }
 
 
-
-
-
-.backgroundtransparent{
-//   @include backgroundTransparent(#f36,.5);
-// }
